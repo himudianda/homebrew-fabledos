@@ -7,11 +7,11 @@ class Fabled < Formula
   on_macos do
     on_arm do
       url "https://github.com/himudianda/fabled-releases/releases/download/v#{version}/fabled-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "b30c09f3b6960714198c36f2d3e38893145d4e60d103ca89d3ab2504b50c8920"
+      sha256 "cd083f00a7b0f05ee6913073c5b5044bd3b75cf7dd91e68a58df2e90f9d96d0c"
     end
     on_intel do
       url "https://github.com/himudianda/fabled-releases/releases/download/v#{version}/fabled-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "bcbe524f34b5d5a77f9a17c96d5ed4ef9b42cf59a84654c00d98b7c6f7376203"
+      sha256 "ee47189ab112806ac0049c8b007d388a49c798200f2247d2877d164bedea0fe7"
     end
   end
 
