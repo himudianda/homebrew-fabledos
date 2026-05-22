@@ -1,17 +1,17 @@
 class Fabled < Formula
   desc "FabledOS — hidden-daemon CLI for parallel AI software development"
   homepage "https://fabledos.com"
-  version "0.7.0"
+  version "0.7.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/himudianda/fabled-releases/releases/download/v#{version}/fabled-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "cd083f00a7b0f05ee6913073c5b5044bd3b75cf7dd91e68a58df2e90f9d96d0c"
+      sha256 "22a659b9497fdd1c9d0b191b2e2e93385fe1e0f73dfdf7bb969865886ea57829"
     end
     on_intel do
       url "https://github.com/himudianda/fabled-releases/releases/download/v#{version}/fabled-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "ee47189ab112806ac0049c8b007d388a49c798200f2247d2877d164bedea0fe7"
+      sha256 "fa5e7cdddd72335e84f92273f1523af95163eac9ca605969de7345fff4b78ccf"
     end
   end
 
